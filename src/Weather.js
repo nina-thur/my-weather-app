@@ -1,5 +1,6 @@
 import "./App.css";
 import "./Weather.css";
+import "./App";
 
 export default function Weather() {
   let weatherData = {
