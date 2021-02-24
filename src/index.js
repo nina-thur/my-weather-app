@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Weather from "./Weather";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-import "./App.css";
+ReactDOM.render(<App />, document.getElementById("root"));
 
-function App() {
-  return (
-    <div className="App">
-      <Weather />
-    </div>
-  );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+serviceWorker.unregister();
