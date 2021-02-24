@@ -9,8 +9,8 @@ export default function App() {
         <Weather defaultCity="Stockholm" />
 
         <footer>
-          This project was coded by Nina Thür
-          and is{" "}
+          Coded by Nina Thür
+          and it is{" "}
           <a
             href="https://github.com/nina-thur/my-weather-app.git"
             target="_blank"
