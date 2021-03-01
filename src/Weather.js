@@ -1,16 +1,10 @@
 import "./App.css";
+import axios from "axios"; 
 import "./Weather.css";
 import "./App";
 
 export default function Weather() {
-  let weatherData = {
-    city: "Stockholm",
-    temperature: 5,
-    date: "Sunday 12:00",
-    description: "Sunshine",
-    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
-    humidity: 87,
-    wind: 5
+  let apiKey="94d579fc8052da3a293a4105275fe741";
   };
 
   return (
