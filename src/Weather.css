@@ -1,71 +1,56 @@
-.weather-app-cover {
-  max-width: 500px;
+.Weather {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  font-family: "Varela Round", sans-serif;
+  padding: 16px;
   margin: 30px auto;
-}
-
-.weather-app-content {
-  padding: 20px;
-  border: 0, 5px solid;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 30px 30px 6px 3px #583d72;
-}
-.weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-}
-
-.weather-temperature strong {
-  color: #583d72;
-  font-size: 64px;
-  line-height: 1;
-  font-weight: 400;
-}
-
-.weather-temperature .units {
-  position: relative;
-  font-size: 16px;
-  top: -34px;
-  color: #583d72;
-}
-
-.weather-temperature .active {
-  color: #583d72;
-  cursor: default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
-.weather-forecast {
-  margin-top: 10px;
-}
-
-.weather-forecast h3 {
-  color: #583d72;
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
-  height: 15px;
-  line-height: 15px;
-  padding-top: 7px;
-}
-
-.weather-forecast img {
+  background-image: url("./img/Mountains.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
+  min-height: 100%;
 }
 
-.weather-forecast-temperature {
-  text-align: center;
-  color: #583d72;
-  font-size: 13px;
+.Weather h1 {
+  font-size: 35px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+  color: #318fb5;
+  padding-bottom: 10px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  color: white;
+}
+
+.Weather canvas {
+  margin-right: 10px auto;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 64px;
   font-weight: 400;
-  height: auto;
-  line-height: 15px;
-  white-space: nowrap;
+  color: white;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -30px;
+  line-height: 1;
+  margin-left: 0;
+  color: white;
 }
