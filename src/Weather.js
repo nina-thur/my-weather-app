@@ -4,7 +4,9 @@ import "./Weather.css";
 import "./App";
 
 export default function Weather() {
-  let apiKey="94d579fc8052da3a293a4105275fe741";
+  const apiKey = "94d579fc8052da3a293a4105275fe741";
+  let city = "Stockholm";
+  let apiUrl= `http://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${apiKey}`;
   };
 
   return (
@@ -61,5 +63,5 @@ export default function Weather() {
     </div>
 
   );
-}
+
 
