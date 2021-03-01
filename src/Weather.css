@@ -31,7 +31,7 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-  color: white;
+  color: blueviolet;
 }
 
 .Weather canvas {
@@ -43,7 +43,7 @@
   font-size: 60px;
   line-height: 64px;
   font-weight: 400;
-  color: white;
+  color: blueviolet;
 }
 
 .Weather .unit {
@@ -52,5 +52,5 @@
   top: -30px;
   line-height: 1;
   margin-left: 0;
-  color: white;
+  color: blueviolet;
 }
