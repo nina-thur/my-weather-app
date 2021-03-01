@@ -7,8 +7,7 @@ export default function Weather() {
   const apiKey = "94d579fc8052da3a293a4105275fe741";
   let city = "Stockholm";
   let apiUrl= `http://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${apiKey}`;
-  };
-
+  
   return (
     <div className="Weather">
       <form className="mb-3">
@@ -63,5 +62,5 @@ export default function Weather() {
     </div>
 
   );
-
+  };
 
