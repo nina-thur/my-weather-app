@@ -1,5 +1,5 @@
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1px solid #583d72;
   border-radius: 10px;
   font-family: "Varela Round", sans-serif;
   padding: 16px;
@@ -31,7 +31,7 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-  color: blueviolet;
+  color: #583d72;
 }
 
 .Weather canvas {
@@ -43,7 +43,7 @@
   font-size: 60px;
   line-height: 64px;
   font-weight: 400;
-  color: blueviolet;
+  color: #583d72;
 }
 
 .Weather .unit {
@@ -52,5 +52,5 @@
   top: -30px;
   line-height: 1;
   margin-left: 0;
-  color: blueviolet;
+  color: #583d72;
 }
