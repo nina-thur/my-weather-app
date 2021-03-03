@@ -2,11 +2,11 @@
   text-align: center;
   position: relative;
   margin: 20px 0;
-  color: blueviolet;
+  color: #583d72;
 }
 
 .WeatherForecast canvas {
   display: block;
   margin: 5px auto;
-  color: blueviolet;
+  color: #583d72;
 }
