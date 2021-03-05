@@ -5,7 +5,7 @@ body {
 .App {
   max-width: 700px;
   margin: 30px auto;
-  color: white;
+  background-color: white;
 }
 .App footer {
   font-size: 12px;
