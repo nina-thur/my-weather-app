@@ -1,7 +1,7 @@
 .App {
   max-width: 700px;
   margin: 30px auto;
-  background-image: white;
+  background-image: linear-gradient(to right, #ffe3d8 30%, #fcdab7 70%);
 }
 
 .App footer {
