@@ -26,7 +26,7 @@
 .Weather li {
   list-style: none;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: bolder;
   line-height: 19px;
   color: #583d72;
 }
