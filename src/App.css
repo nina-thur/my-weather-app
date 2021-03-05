@@ -7,6 +7,9 @@ body {
   margin: 30px auto;
   background-color: white;
   box-shadow: 30px 30px 6px 3px #583d72;
+  padding: 20px;
+  border: 0, 5px solid;
+  border-radius: 5px;
 }
 .App footer {
   font-size: 12px;
